@@ -5,8 +5,6 @@
 # include <cstring>
 # include<algorithm>
 using namespace std;
-int error;
-
 
 int main() {
 	ios::sync_with_stdio(0);
@@ -19,7 +17,7 @@ int main() {
 	while (n--) {
 		string st;
 		cin >> st;
-		error = 0;
+	        int error = 0;
 		deque<int>de;
 		char a;
 		int b;
