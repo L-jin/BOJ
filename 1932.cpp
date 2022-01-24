@@ -22,7 +22,6 @@ int main() {
 	for (int i = 2; i <= n; i++) {
 		for (int j = 1; j <= i; j++) {
 			dp[i][j] = max(dp[i - 1][j - 1] + arr[i][j], dp[i - 1][j] + arr[i][j]);
-			cout << i << ' ' << j;
 		}
 	}
 
